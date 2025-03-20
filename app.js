@@ -7,7 +7,7 @@ let emails = localStorage.getItem("emails");
 emails = JSON.parse(emails);
 let passwords = localStorage.getItem("passwords");
 passwords = JSON.parse(passwords);
-console.log(emails);
+
 let index = [];
 
 function login() {
