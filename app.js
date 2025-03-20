@@ -42,5 +42,4 @@ function login() {
     } else {
         alert(`Wrong credentials, Invalid username or password`);
     }
-
 }
