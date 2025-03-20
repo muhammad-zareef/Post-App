@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+    display: grid;
+    background-color: #f2f4f7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 900px;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+}
+
+.left-section h1 {
+    font-size: 3rem;
+    color: #1877f2;
+    font-weight: bold;
+    margin: 0;
+}
+
+.right-section {
+    width: 18rem;
+    border-radius: 12px;
+}
+
+.signup-box {
+    background: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h2 {
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-box p {
+    color: #777;
+    font-size: 14px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    width: 50%;
+}
+
+.date-input label{
+    margin-bottom: 0.15rem;
+}
+
+.gender-input{}
+
+.gender-label{
+    margin-bottom: 0.15rem;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0px 0;
+}
+
+.gender-options label {
+    text-align: center;
+    font-size: 14px;
+}
+
+.genderLabel {
+    display: flex;
+}
+
+.label {
+    padding: 7px 10px;
+    display: flex;
+    gap: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.label label {
+    font-weight: 500;
+}
+
+#maleLable {}
+
+@media screen and (min-width:345px) {
+    .right-section{
+        width: 20rem;
+    }
+    .label label {
+        margin-right: 0.8rem;
+    }
+    #maleLable {
+        margin-right: 0.4rem;
+    }
+}
+
+@media screen and (min-width:376px) {
+    .container{
+        gap: 1rem;
+    }
+    .right-section{
+        width: 22rem;
+    }
+    .label label {
+        margin-right: 1rem;
+    }
+    #maleLable {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:405px) {
+    .left-section h1 {
+        font-size: 3.5rem;
+    }
+    .right-section{
+        width: 24rem;
+    }
+    .label label {
+        margin-right: 1.8rem;
+    }
+    #maleLable {
+        margin-right: 1.4rem;
+    }
+}
+
+@media screen and (min-width:440px) {
+    .label label {
+        margin-right: 2.8rem;
+    }
+    #maleLable {
+        margin-right: 1.8rem;
+    }
+}
+
+@media screen and (min-width:441px) {
+    .right-section{
+        width: 26rem;
+    }
+}
+
+@media screen and (min-width:472px) {
+    .right-section{
+        width: 28rem;
+    }
+}
+
+@media screen and (min-width:515px) {
+    .container{
+        gap: 1.5rem;
+    }
+    .signup-box{
+        padding: 15px;
+    }
+    .left-section h1 {
+        font-size: 4rem;
+    }
+    .right-section{
+        width: 30rem;
+    }
+}
+
+.terms {
+    margin: 0;
+    color: #777;
+}
+
+.terms a {
+    text-decoration: none;
+}
+
+#para {
+    font-size: 0.7rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: #42b72a;
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 47%;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #36a420;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}

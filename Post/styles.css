@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    padding: 0.55rem 0.5rem 1.4rem 0.5rem;
+    background-color: #f2f4f7;
+}
+
+.main-content{
+    margin: 0 auto;
+    max-width: 590px;
+    border-radius: 0.7rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+    border-radius: 0.7rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    padding: 0.7rem 0.5rem 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2{}
+
+.line{
+    margin: 0.27rem 0 0.75rem 0;
+}
+
+.section{
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+}
+
+.section-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.section-header p{
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.section-body{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.textarea-input{
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.input-fields{
+    display: flex;
+    justify-content: space-between;
+}
+
+#button{
+    cursor: not-allowed;
+}
+
+.color-picker{}
+
+.main-post-container{
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    background-color: #f2f4f7;
+}
+
+.post-container{
+    margin: 0 auto;
+    max-width: 590px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.2rem;
+    border-radius: 0.7rem;
+}
+
+.post-content{
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border-radius: 0.8rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.post-header p{
+    margin-bottom: 0;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.post-body{
+    padding: 0.5rem;
+}
+
+.post-body p{
+    font-size: 1.1rem;
+}
