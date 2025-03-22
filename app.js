@@ -40,6 +40,8 @@ function login() {
         localStorage.setItem("index", JSON.stringify(passwordIndex));
         location = "./Post/index.html";
     } else {
+        currentEmail.value = "";
+        currentPassword.value = "";
         alert(`Wrong credentials, Invalid username or password`);
     }
 
